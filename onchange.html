@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue.js Input Change Event Example</title>
+</head>
+<body>
+  <div id="app">
+    <!-- Input field -->
+    <input type="text" v-model="inputText" @change="handleChange">
+    <!-- Display the input value -->
+    <p>You typed: {{ inputText }}</p>
+  </div>
+
+  <!-- Include Vue.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <!-- Include your custom script -->
+  <script src="vueonchange.js"></script>
+</body>
+</html>
